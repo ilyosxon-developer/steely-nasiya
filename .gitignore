@@ -1,1 +1,7 @@
+__pycache__/
+*.db
+*.pyc
+*.pyo
+*.sqlite3
+data/
 
