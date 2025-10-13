@@ -1,3 +1,3 @@
-aiogram==3.5.0
-__pycache__/
+aiogram==3.13.1
+asyncio
 *.db
