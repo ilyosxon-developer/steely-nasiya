@@ -5,11 +5,23 @@ from aiogram.types import ReplyKeyboardMarkup
 import sqlite3
 import os
 
-BOT_TOKEN = os.getenv("BOT_TOKEN")
-ADMIN_ID = int(os.getenv("ADMIN_ID", "0"))
+BOT_TOKEN = "8154219948:AAGqF3Bxk0_AqoeE-4HuABFiDVCAwRWGygs"
+ADMIN_ID = 5819476520  # O‘zingning Telegram ID
+
+
+BOT_TOKEN = os.getenv("BOT_TOKEN")  # Tokenni Environment Variable'dan oladi
+ADMIN_ID = int(os.getenv("ADMIN_ID"))
+
 
 bot = Bot(token=BOT_TOKEN)
 dp = Dispatcher()
+
+BOT_TOKEN = os.getenv("BOT_TOKEN")
+ADMIN_ID = int(os.getenv("ADMIN_ID", "0"))
+bot = Bot(token=BOT_TOKEN)
+dp = Dispatcher()
+
+
 
 DB_PATH = "data/nasiya.db"
 
